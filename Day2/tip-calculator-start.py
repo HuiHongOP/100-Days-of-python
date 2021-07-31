@@ -23,7 +23,7 @@ tips_multiplier= 1+(percentage_tip/100)
 #The price that each person is going to pay
 each_person_price = (total_bill/number_of_split)* tips_multiplier
 
-#Setting the decimal place to the tenth
+#Setting the decimal place to the hundredths
 decimal_precision= "{:.2f}".format(each_person_price)
 
 #Display the output of individual price
