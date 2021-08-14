@@ -14,7 +14,6 @@ def start_machine():
 
   while machine_on:
     user_input = input(f"What would you like? {coffee_type.get_items()}: ")
-    user_input.str.lower()
     if user_input == "report":
       coffee_maker.report()
       money_machine.report()
